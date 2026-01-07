@@ -1,0 +1,14 @@
+# ~/.gitconfig
+
+[user]
+    name = Kojo Idrissa
+    email = YOUR_EMAIL_HERE
+
+[init]
+    defaultBranch = main
+
+[core]
+    editor = vim
+
+[credential]
+    helper = osxkeychain
