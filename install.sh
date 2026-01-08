@@ -19,5 +19,6 @@ link() {
 # Add new files here as you create them
 link "$DOTFILES/zshrc" "$HOME/.zshrc"
 link "$DOTFILES/gitconfig" "$HOME/.gitconfig"
+link "$DOTFILES/ssh_config" "$HOME/.ssh/config"
 
 echo "Done! Run 'source ~/.zshrc' or open a new terminal."

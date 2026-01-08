@@ -14,6 +14,7 @@ cd ~/dotfiles
 Each file here gets symlinked to your home directory with a dot prefix:
 - `zshrc` → `~/.zshrc`
 - `gitconfig` → `~/.gitconfig`
+- `ssh_config` → `~/.ssh/config`
 
 When you edit `~/dotfiles/zshrc`, you're editing the actual config because `~/.zshrc` is just a pointer to it.
 
@@ -49,4 +50,3 @@ For machine-specific settings you don't want in git, use `~/.zshrc.local`. The z
 | `vimrc` | Vim editor |
 | `gitignore_global` | Files git should always ignore |
 | `config/starship.toml` | Starship prompt (if you install it) |
-| `ssh/config` | SSH aliases and settings |
