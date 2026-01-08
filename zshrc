@@ -16,3 +16,4 @@ alias gs="git status"
 
 # Local overrides (not tracked in git)
 [ -f ~/.zshrc.local ] && source ~/.zshrc.local
+export PATH="$HOME/.local/bin:$PATH"
