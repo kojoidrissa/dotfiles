@@ -15,6 +15,7 @@ Each file here gets symlinked to your home directory with a dot prefix:
 - `zshrc` → `~/.zshrc`
 - `gitconfig` → `~/.gitconfig`
 - `ssh_config` → `~/.ssh/config`
+- `gitignore_global` → `~/.gitignore_global`
 
 When you edit `~/dotfiles/zshrc`, you're editing the actual config because `~/.zshrc` is just a pointer to it.
 
@@ -48,5 +49,12 @@ For machine-specific settings you don't want in git, use `~/.zshrc.local`. The z
 | File | What it configures |
 |------|--------------------|
 | `vimrc` | Vim editor |
-| `gitignore_global` | Files git should always ignore |
 | `config/starship.toml` | Starship prompt (if you install it) |
+
+## iTerm2 Configuration
+
+iTerm2 stores preferences in binary plist files. For version control, you have a few options:
+
+1. **Dynamic Profiles** (Recommended): Create JSON profiles in `~/Library/Application Support/iTerm2/DynamicProfiles/`
+2. **Export Preferences**: iTerm2 → Preferences → General → Preferences → Load preferences from a custom folder
+3. **Manual Export**: Export specific settings via iTerm2's export feature

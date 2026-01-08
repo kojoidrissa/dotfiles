@@ -20,5 +20,6 @@ link() {
 link "$DOTFILES/zshrc" "$HOME/.zshrc"
 link "$DOTFILES/gitconfig" "$HOME/.gitconfig"
 link "$DOTFILES/ssh_config" "$HOME/.ssh/config"
+link "$DOTFILES/gitignore_global" "$HOME/.gitignore_global"
 
 echo "Done! Run 'source ~/.zshrc' or open a new terminal."
