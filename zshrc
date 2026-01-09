@@ -17,3 +17,6 @@ alias gs="git status"
 # Local overrides (not tracked in git)
 [ -f ~/.zshrc.local ] && source ~/.zshrc.local
 export PATH="$HOME/.local/bin:$PATH"
+export PATH="/Applications/Sublime Text.app/Contents/SharedSupport/bin:$PATH"
+
+export EDITOR='subl -w'
